@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Global ===================== */
 :root {
     --dark-blue: #363f5f;
@@ -6,11 +5,6 @@
     --light-blue: #3E38F2;
     --red: #e92929;
 
-=======
-/* Global */
-:root {
-    --dark-blue: #363f5f;
->>>>>>> 52acaf7b780c047b14fd188e3a98b6bf48d8c7ab
 }
 
 * {
@@ -19,7 +13,6 @@
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 html {
     font-size: 93.75%; /* 15px */
 }
@@ -39,27 +32,14 @@ body {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
-=======
-body {
-    background: #f0f2f5;
-    font-family: 'Poppins', sans-serif;
->>>>>>> 52acaf7b780c047b14fd188e3a98b6bf48d8c7ab
 }
 
 .container {
     width: min(90vw, 800px);
-<<<<<<< HEAD
     margin: auto;
 }
 
 /* Titles ===================== */
-=======
-    margin: 0 auto;
-}
-
-/* Titles */
-
->>>>>>> 52acaf7b780c047b14fd188e3a98b6bf48d8c7ab
 h2 {
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
@@ -68,7 +48,6 @@ h2 {
     font-weight: normal;
 }
 
-<<<<<<< HEAD
 /* Links & Buttons ===================== */
 a {
     color: var(--blue);
@@ -131,12 +110,6 @@ button:hover {
 /* Header ===================== */
 header {
     background: #230A59;
-=======
-/* Header */
-
-header {
-    background:#2d4a22;
->>>>>>> 52acaf7b780c047b14fd188e3a98b6bf48d8c7ab
     padding: 2rem 0 10rem;
     text-align: center;
 }
@@ -146,7 +119,6 @@ header {
     font-weight: 100;
 }
 
-<<<<<<< HEAD
 /* Balance ===================== */
 #balance {
     margin-top: -5rem;
@@ -158,50 +130,27 @@ header {
 }
 
 /* Cards ===================== */
-=======
-/* Balance */
-
-#balance {
-    margin-top: -8rem;
-}
-
-#balance h2 {
-    margin-top: 0;
-    color: #fff;
-}
-
-/* Card */
-
->>>>>>> 52acaf7b780c047b14fd188e3a98b6bf48d8c7ab
 .card {
     background: white;
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
 
     margin-bottom: 2rem;
-<<<<<<< HEAD
-
-=======
->>>>>>> 52acaf7b780c047b14fd188e3a98b6bf48d8c7ab
     color: var(--dark-blue);
 }
 
 .card h3 {
     font-weight: normal;
     font-size: 1rem;
-<<<<<<< HEAD
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-=======
->>>>>>> 52acaf7b780c047b14fd188e3a98b6bf48d8c7ab
 }
 
 .card p {
     font-size: 2rem;
     line-height: 3rem;
-<<<<<<< HEAD
 
     margin-top: 1rem;
 }
@@ -217,24 +166,12 @@ header {
     width: 100%;
     overflow-x: auto;
 }
-=======
-}
-
-.card.total {
-    background: #49AA26;
-    color: #fff;
-}
-
-/* Table */
-
->>>>>>> 52acaf7b780c047b14fd188e3a98b6bf48d8c7ab
 #data-table {
     width: 100%;
     border-spacing: 0 0.5rem;
     color: #969cb3;
 }
 
-<<<<<<< HEAD
 table thead tr th:first-child, 
 table tbody tr td:first-child
 {
@@ -249,18 +186,12 @@ table tbody tr td:last-child{
 table thead th {
     background: white;
 
-=======
-#data-table th {
-    background: #fff;
-    
->>>>>>> 52acaf7b780c047b14fd188e3a98b6bf48d8c7ab
     font-weight: normal;
     padding: 1rem 2rem;
 
     text-align: left;
 }
 
-<<<<<<< HEAD
 table tbody tr {
     opacity: 0.7
 }
@@ -274,28 +205,6 @@ table tbody td {
     padding: 1rem 2rem;
 }
 
-=======
-#data-table tbody tr{
-    opacity: 0.7;
-}
-
-
-#data-table tbody tr:hover{
-    opacity: 1;
-}
-
-#data-table td {
-    background: #fff;
-
-    padding: 1rem 2rem;
-}
-
-#data-table thead tr th:first-child,
-#data-table tbody tr td:first-child {
-    border-radius: 0.5rem 0 0 0.5rem ;
-}
-
->>>>>>> 52acaf7b780c047b14fd188e3a98b6bf48d8c7ab
 td.description {
     color: var(--dark-blue);
 }
@@ -308,7 +217,6 @@ td.expense {
     color: #e92929;
 }
 
-<<<<<<< HEAD
 /* Modal ===================== */
 .modal-overlay {
     width: 100%;
@@ -403,14 +311,3 @@ footer {
         gap: 2rem;
     }
 }
-=======
-/* Footer */
-
-footer {
-    text-align: center;
-    padding: 4rem 0 2rem;
-
-    color: var(--dark-blue);
-    opacity: 0.6;
-}
->>>>>>> 52acaf7b780c047b14fd188e3a98b6bf48d8c7ab
